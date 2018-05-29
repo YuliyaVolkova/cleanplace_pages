@@ -12,7 +12,7 @@ $(document).ready(function(){
 		carousel_padding: 8,					//padding at the sides of the carousel
 		carousel_space_between_tiles: 11,		//space between tiles
 		carousel_navigation_numtiles:1,			//number of tiles to scroll when user clicks on next/prev button
-		carousel_scroll_duration:370,			//duration of scrolling to tile
+		carousel_scroll_duration:500,			//duration of scrolling to tile
 		carousel_scroll_easing:"easeOutCubic",	//easing of scrolling to tile animation
 		carousel_autoplay: false,				//true,false - autoplay of the carousel on start
 		//navigation options
@@ -50,8 +50,8 @@ $(document).ready(function(){
 		lightbox_arrows_position: "sides",				//sides, inside: position of the arrows, used on compact type			
 		lightbox_arrows_offset: 15,						//The horizontal offset of the arrows
 		lightbox_arrows_inside_offset: 10,				//The offset from the image border if the arrows placed inside
-		lightbox_arrows_inside_alwayson: true,			//Show the arrows on mouseover, or always on.
-		lightbox_overlay_color: "#1b92a6",					//the color of the overlay. if null - will take from css
+		lightbox_arrows_inside_alwayson: true,
+		lightbox_overlay_color: "#6DCADC",			//Show the arrows on mouseover, or always on.
 		lightbox_overlay_opacity: 1,						//the opacity of the overlay. for compact type - 0.6
 		lightbox_top_panel_opacity: null,				//the opacity of the top panel
 		lightbox_close_on_emptyspace:true,				//close the lightbox on empty space
@@ -98,7 +98,7 @@ $(document).ready(function(){
 		carousel_padding: 8,					//padding at the sides of the carousel
 		carousel_space_between_tiles: 11,		//space between tiles
 		carousel_navigation_numtiles:1,			//number of tiles to scroll when user clicks on next/prev button
-		carousel_scroll_duration:370,			//duration of scrolling to tile
+		carousel_scroll_duration:500,			//duration of scrolling to tile
 		carousel_scroll_easing:"easeOutCubic",	//easing of scrolling to tile animation
 		carousel_autoplay: false,				//true,false - autoplay of the carousel on start
 		//navigation options
@@ -137,7 +137,7 @@ $(document).ready(function(){
 		lightbox_arrows_offset: 15,						//The horizontal offset of the arrows
 		lightbox_arrows_inside_offset: 10,				//The offset from the image border if the arrows placed inside
 		lightbox_arrows_inside_alwayson: true,			//Show the arrows on mouseover, or always on.
-		lightbox_overlay_color: "#1b92a6",					//the color of the overlay. if null - will take from css
+		lightbox_overlay_color: "#6DCADC",					//the color of the overlay. if null - will take from css
 		lightbox_overlay_opacity: 1,						//the opacity of the overlay. for compact type - 0.6
 		lightbox_top_panel_opacity: null,				//the opacity of the top panel
 		lightbox_close_on_emptyspace:true,				//close the lightbox on empty space
