@@ -1,3 +1,4 @@
+video.video-js.vjs-default-skin(data-setup='{"autoplay": false, "controls": true,  "loop": true, "preload": "auto", "poster": "./assets/images/content/benefits/poster/benefits.jpg", "aspectRatio": "16:9", "fluid": true, "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/vkVdizlp0e0?rel=0", "youtube": {"loop": 1, "origin": "origin"}}] }')
 
 version 1.7.45
 
