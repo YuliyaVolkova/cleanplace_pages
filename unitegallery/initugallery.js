@@ -168,5 +168,14 @@ $(document).ready(function(){
 		lightbox_textpanel_title_bold:null,					//textpanel title bold. if null - take from css
 		lightbox_textpanel_css_title:{},					//textpanel additional css of the title				//textpanel additional css of the description			
 	});
-	$('.ug-tile-navigation-wrapper').css('position', 'static');
+	var controlsWrapper = $('.ug-tile-navigation-wrapper');
+	$(controlsWrapper).css('position', 'static');
+	$(window).resize(function() {
+		var timer = setInterval(function() {
+      		if($(controlsWrapper).css('position')!=='static') {
+      			$(controlsWrapper).css('position', 'static');
+        		clearInterval(timer);
+      		}
+    	}, 20);
+	});
 });
